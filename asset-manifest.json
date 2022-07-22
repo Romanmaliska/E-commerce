@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Romanmaliska/E-commerce/static/css/main.ef574d6f.css",
+    "main.js": "/Romanmaliska/E-commerce/static/js/main.51ae6d87.js",
+    "static/media/1.avif": "/Romanmaliska/E-commerce/static/media/1.870070a8a5c2924166d9.avif",
+    "static/media/2.avif": "/Romanmaliska/E-commerce/static/media/2.0e2d230b7ab01ffc8845.avif",
+    "static/media/designPlanner-lg.avif": "/Romanmaliska/E-commerce/static/media/designPlanner-lg.f2d1e2ee879b31ebd487.avif",
+    "static/media/designPlanner-sm.avif": "/Romanmaliska/E-commerce/static/media/designPlanner-sm.f2d1e2ee879b31ebd487.avif",
+    "static/media/women.avif": "/Romanmaliska/E-commerce/static/media/women.169c17677e310087e9fd.avif",
+    "static/media/logo.svg": "/Romanmaliska/E-commerce/static/media/logo.7f56e8b1aeefc6479da4bee0e16a8178.svg",
+    "index.html": "/Romanmaliska/E-commerce/index.html",
+    "main.ef574d6f.css.map": "/Romanmaliska/E-commerce/static/css/main.ef574d6f.css.map",
+    "main.51ae6d87.js.map": "/Romanmaliska/E-commerce/static/js/main.51ae6d87.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef574d6f.css",
+    "static/js/main.51ae6d87.js"
+  ]
+}
