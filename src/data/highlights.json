@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "source": "",
+        "text": "Získajte svoje obľúbené výrobky za zvýhodnené ceny"
+    },
+    {
+        "id": 2,
+        "source": "../images/highlights/women.avif",
+        "text": "Ponuky IKEA Family"
+    },
+    {
+        "id": 3,
+        "source": "Large",
+        "text": "Výrobky do 5 eur"
+    },
+    {
+        "id": 4,
+        "source": "Large",
+        "text": ""
+    },
+    {
+        "id": 5,
+        "source": "Large",
+        "text": "Red"
+    },
+    {
+        "id": 6,
+        "size": "Large",
+        "text": "Red"
+    }
+]
