@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/E-commerce/static/css/main.ef574d6f.css",
-    "main.js": "/E-commerce/static/js/main.5492987d.js",
-    "static/media/1.avif": "/E-commerce/static/media/1.870070a8a5c2924166d9.avif",
-    "static/media/2.avif": "/E-commerce/static/media/2.0e2d230b7ab01ffc8845.avif",
-    "static/media/designPlanner-lg.avif": "/E-commerce/static/media/designPlanner-lg.f2d1e2ee879b31ebd487.avif",
-    "static/media/designPlanner-sm.avif": "/E-commerce/static/media/designPlanner-sm.f2d1e2ee879b31ebd487.avif",
-    "static/media/women.avif": "/E-commerce/static/media/women.169c17677e310087e9fd.avif",
-    "static/media/logo.svg": "/E-commerce/static/media/logo.7f56e8b1aeefc6479da4bee0e16a8178.svg",
-    "index.html": "/E-commerce/index.html",
-    "main.ef574d6f.css.map": "/E-commerce/static/css/main.ef574d6f.css.map",
-    "main.5492987d.js.map": "/E-commerce/static/js/main.5492987d.js.map"
+    "main.css": "/e-commerce/static/css/main.ef574d6f.css",
+    "main.js": "/e-commerce/static/js/main.bd035934.js",
+    "static/media/1.avif": "/e-commerce/static/media/1.870070a8a5c2924166d9.avif",
+    "static/media/2.avif": "/e-commerce/static/media/2.0e2d230b7ab01ffc8845.avif",
+    "static/media/designPlanner-lg.avif": "/e-commerce/static/media/designPlanner-lg.f2d1e2ee879b31ebd487.avif",
+    "static/media/designPlanner-sm.avif": "/e-commerce/static/media/designPlanner-sm.f2d1e2ee879b31ebd487.avif",
+    "static/media/women.avif": "/e-commerce/static/media/women.169c17677e310087e9fd.avif",
+    "static/media/logo.svg": "/e-commerce/static/media/logo.7f56e8b1aeefc6479da4bee0e16a8178.svg",
+    "index.html": "/e-commerce/index.html",
+    "main.ef574d6f.css.map": "/e-commerce/static/css/main.ef574d6f.css.map",
+    "main.bd035934.js.map": "/e-commerce/static/js/main.bd035934.js.map"
   },
   "entrypoints": [
     "static/css/main.ef574d6f.css",
-    "static/js/main.5492987d.js"
+    "static/js/main.bd035934.js"
   ]
 }
