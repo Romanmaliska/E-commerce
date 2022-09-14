@@ -1,26 +1,33 @@
-import React from "react";
-import womenPic from "../images/highlights/women.avif";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/pagination";
+
+import { Pagination } from "swiper";
 
 const Higlights = () => {
     return (
-      <h2>carousel</h2>
-        // <section className="highlights" aria-label="Best Deals">
-        //     <div className="highlights__carousel">
-        //         <button className="highlights__btn prev">Prev</button>
-        //         <button className="highlights__btn next">Next</button>
-        //         <ul className="highlights__slides">
-        //             <li className="highlights__slide">
-        //                 <img src={womenPic} alt=""></img>
-        //             </li>
-        //             <li className="highlights__slide">
-        //                 <img src={womenPic} alt=""></img>
-        //             </li>
-        //             <li className="highlights__slide">
-        //                 <img src={womenPic} alt=""></img>
-        //             </li>
-        //         </ul>
-        //     </div>
-        // </section>
+        <>
+            <Swiper
+                slidesPerView={"auto"}
+                spaceBetween={30}
+                pagination={{
+                    clickable: true,
+                }}
+                modules={[Pagination]}
+                className="mySwiper"
+            >
+                <SwiperSlide>Slide 1</SwiperSlide>
+                <SwiperSlide>Slide 2</SwiperSlide>
+                <SwiperSlide>Slide 3</SwiperSlide>
+                <SwiperSlide>Slide 4</SwiperSlide>
+                <SwiperSlide>Slide 5</SwiperSlide>
+                <SwiperSlide>Slide 6</SwiperSlide>
+                <SwiperSlide>Slide 7</SwiperSlide>
+                <SwiperSlide>Slide 8</SwiperSlide>
+                <SwiperSlide>Slide 9</SwiperSlide>
+            </Swiper>
+        </>
     );
 };
 

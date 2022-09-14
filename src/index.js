@@ -1,16 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { Provider } from "react-redux";
+import { store } from "./ReduxStore/store";
 import { AppProvider } from "./context/sidebarContext";
-import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    <BrowserRouter>
-        <React.StrictMode>
+    <React.StrictMode>
+        <Provider store={store}>
             <AppProvider>
                 <App />
             </AppProvider>
-        </React.StrictMode>
-    </BrowserRouter>
+        </Provider>
+    </React.StrictMode>
 );

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../images/logo.svg";
 import { useSidebarContext } from "../context/sidebarContext";
 
@@ -10,13 +11,16 @@ const Sidebar = () => {
             className={`${isSidebarOpen ? "sidebar sidebar-show" : "sidebar"}`}
         >
             <section className="sidebar__header">
-                <img
-                    src={logo}
-                    className="sidebar__logo"
-                    alt="logo"
-                    width="75"
-                    height="30"
-                />
+                <Link to={"./"}>
+                    <img
+                        src={logo}
+                        className="sidebar__logo"
+                        onClick={closeSidebar}
+                        alt="logo"
+                        width="75"
+                        height="30"
+                    />
+                </Link>
                 <svg
                     className="sidebar__icon"
                     onClick={closeSidebar}
@@ -33,8 +37,15 @@ const Sidebar = () => {
                 </svg>
             </section>
             <section className="sidebar__links">
-                <h1>Domov</h1>
-                <h1>Výrobky</h1>
+                <Link to={"/"} onClick={closeSidebar} className="sidebar__link">
+                    Domov
+                </Link>
+                <Link to={"/shop"} onClick={closeSidebar} className="sidebar__link">
+                    Výrobky
+                </Link>
+                <Link to={"/shoppingcart"} onClick={closeSidebar} className="sidebar__link">
+                    Nákupný košík
+                </Link>
             </section>
         </aside>
     );

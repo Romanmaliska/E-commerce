@@ -13,7 +13,7 @@ const DesignPlanner = () => {
                     so špecialistom na kuchyne a plánujte s nami kompletne
                     zadarmo.
                 </p>
-                <button type="button" className="btn btn--primary">Chcem termín</button>
+                <button type="button" className="btn btn__primary">Chcem termín</button>
             </article>
         </section>
     );

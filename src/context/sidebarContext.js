@@ -12,8 +12,6 @@ const AppProvider = ({ children }) => {
         setIsSidebarOpen(false);
     };
 
-    console.log(isSidebarOpen)
-
     return (
         <AppContext.Provider
             value={{

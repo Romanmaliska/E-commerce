@@ -4,15 +4,15 @@ import { Higlights } from "../components/Highlights";
 import { Services } from "../components/Services";
 import {DesignPlanner} from "../components/DesignPlanner";
 
-const HomePage = () => {
+const Homepage = () => {
     return (
         <>
             <Teaser />
-            {/* <Higlights /> */}
+            <Higlights />
             <DesignPlanner />
             <Services />
         </>
     );
 };
 
-export { HomePage };
+export { Homepage };
